@@ -6,10 +6,10 @@ export default function Meals() {
             <h1>LIST MEALS</h1>
             <ul>
                 <li>
-                    <Link href="">meal 1</Link>
+                    <Link href="/meals/meal-1">meal 1</Link>
                 </li>
                 <li>
-                    <Link href="">meal 2</Link>
+                    <Link href="/meals/meal-2">meal 2</Link>
                 </li>
             </ul>
         </main>
