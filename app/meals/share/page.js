@@ -1,5 +1,5 @@
 import classes from './page.module.css'
-import ImagePicker from '@/app/meals/share/image-picker'
+import ImagePicker from '@/app/meals/image-picker'
 export default function ShareMealPage() {
     return (
       <>
