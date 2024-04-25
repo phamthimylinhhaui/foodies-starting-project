@@ -1,5 +1,5 @@
 'use client';
-import classes from './share/image-picker.module.css'
+import classes from './image-picker.module.css'
 import { useRef, useState } from 'react'
 import Image from 'next/image'
 
@@ -23,11 +23,11 @@ export default function ImagePicker({ label, name}) {
     }
 
     fileReader.readAsDataURL(file);
-  }
 
-  if (!file) {
-    setPickedImage(null);
-    return;
+    if (!file) {
+      setPickedImage(null);
+      return;
+    }
   }
 
   return (
